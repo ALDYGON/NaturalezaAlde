@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.naturalezaalde.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.naturalezaalde.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.naturalezaalde.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/calculadoraFragment"
+        android:name="com.example.naturalezaalde.calculadoraFragment"
+        android:label="fragment_calculadora"
+        tools:layout="@layout/fragment_calculadora" />
+    <fragment
+        android:id="@+id/paisajesFragment"
+        android:name="com.example.naturalezaalde.paisajesFragment"
+        android:label="fragment_paisajes"
+        tools:layout="@layout/fragment_paisajes" />
+    <fragment
+        android:id="@+id/redsocialFragment"
+        android:name="com.example.naturalezaalde.redsocialFragment"
+        android:label="fragment_redsocial"
+        tools:layout="@layout/fragment_redsocial" />
+    <fragment
+        android:id="@+id/pvalorFragment"
+        android:name="com.example.naturalezaalde.pvalorFragment"
+        android:label="fragment_pvalor"
+        tools:layout="@layout/fragment_pvalor" />
+    <fragment
+        android:id="@+id/sonidosFragment"
+        android:name="com.example.naturalezaalde.sonidosFragment"
+        android:label="fragment_sonidos"
+        tools:layout="@layout/fragment_sonidos" />
+    <fragment
+        android:id="@+id/webviewFragment"
+        android:name="com.example.naturalezaalde.webviewFragment"
+        android:label="fragment_webview"
+        tools:layout="@layout/fragment_webview" />
+</navigation>

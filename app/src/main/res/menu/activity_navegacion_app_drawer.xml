@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/panta"
+            android:title="Naturaleza" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/cuidado"
+            android:title="Cuidados medio ambiente" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/pajaro"
+            android:title="Galeria pajaros" />
+        <item
+            android:id="@+id/calculadoraFragment"
+            android:icon="@drawable/calculadora"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/sonidosFragment"
+            android:icon="@drawable/sonido"
+            android:title="Sonidos naturaleza" />
+        <item
+            android:id="@+id/paisajesFragment"
+            android:icon="@drawable/paisaje"
+            android:title="Galeria Paisajes" />
+        <item
+            android:id="@+id/webviewFragment"
+            android:icon="@drawable/buscar"
+            android:title="Buscar informacion" />
+        <item
+            android:id="@+id/redsocialFragment"
+            android:icon="@drawable/redessociales"
+            android:title="Redes soociales" />
+        <item
+            android:id="@+id/pvalorFragment"
+            android:icon="@drawable/valor"
+            android:title="Propuesta valor" />
+    </group>
+</menu>
+

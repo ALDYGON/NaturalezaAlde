@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAB4C3"
+    tools:context=".redsocialFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="REDES SOCIALES" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="586dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnface"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#D0B2F2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/facebook1" />
+
+        <ImageButton
+            android:id="@+id/btnyou"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#c5e1a5"
+            android:scaleType="fitCenter"
+            android:src="@drawable/youtube1" />
+
+        <ImageButton
+            android:id="@+id/btninst"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#f4ff81"
+            android:scaleType="fitCenter"
+            android:src="@drawable/instagram1" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="384dp"
+            android:layout_height="138dp"
+            android:text="Ve y descubre que novedades encontrarás en estas 3 aplicaciones sobre el cuidado del medio ambiente"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
